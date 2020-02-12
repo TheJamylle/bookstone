@@ -1,0 +1,88 @@
+<html>
+ <head>
+	<meta charset=UTF-8>
+	<title>Trabalho</title>
+	<link  rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <style type="text/css">
+ 	img {
+ 		filter: opacity(30%);
+ 		transition: 0.8s;
+ 	}
+ 	img:hover {
+ 		filter: opacity(100%);
+ 		transition: 0.8s;
+ 		transform: scale(1.5);
+ 	}
+ </style>
+ <body>
+ <header>
+ 		<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html"><b>Home</b></a>
+  <a href="quem.html">Quem Somos</a>
+  <a href="faq.html">Fale Conosco</a>
+  <a href="galeria.html">Galeria</a>
+  <li class="dropdown">
+    	<a href="javascript:void(0)" class="dropbtn">Produtos</a>
+    	<div class="dropdown-content">
+	      	<a href="dic.html">Dicionários</a>
+		  	<a href="galeria.html">Bibliografias</a>
+		  	<a href="galeria.html">Revistas</a>
+    	</div>
+  	 </li><br>
+</div>
+<span id="responda" style="font-size:30px;cursor:pointer;color: #7ACBCD;" onclick="openNav()">&#9776; Menu</span>
+
+<script>function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+ 	<nav>
+	
+	<center><ul>
+	 <li><a href="home.html"><b>Home</b></a></li>
+	 <li><a href="quem.html">Quem Somos</a></li>
+	 <li class="dropdown">
+    	<a href="javascript:void(0)" class="dropbtn">Produtos</a>
+    	<div class="dropdown-content">
+	      	<a href="dic.html">Dicionários</a>
+		  	<a href="galeria.html">Bibliografias</a>
+		  	<a href="galeria.html">Revistas</a>
+    	</div>
+  	 </li>
+	 <li><a href="faq.html">Fale Conosco</a></li>
+	 <li><a href="galeria.html">Galeria</a></li>
+	</ul></center>
+  </nav>
+	
+  <div id="img" >
+	<br><br><br><br><br><br><br><br>
+  </div>
+  
+ </header>
+
+ <section>
+	<p style="font-size: 35px; font-weight: 700; color: #7ACBCD; text-align: center;">Galeria</p>
+	<center><article style="border: 2px solid #7ACBCD; padding: 10px;">
+	  <img src="livro.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;"><img src="livro1.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;"><img src="livro2.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	  <img src="livro3.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;"><img src="livro4.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;"><img src="livro5.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	  <img src="livro6.jpeg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	  <img src="livro7.jpeg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	  <img src="livro8.jpg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	  <img src="livro9.jpeg" width="150px" height="250px" style="margin-right: 15px;margin-left: 15px;">
+	</article></center>
+ </section>
+ <footer>
+ 	<center>Desenvolido por <a href="quem.html">Jamylle Magalhães</a><br><br>
+ 	©2018 BOOK STONE LTDA. Todos os direitos reservados</center>
+ </footer>
+</body>
+</html>

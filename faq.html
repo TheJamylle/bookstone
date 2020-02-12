@@ -1,0 +1,104 @@
+<html>
+ <head>
+	<meta charset=UTF-8>
+	<title>Trabalho</title>
+	<link  rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <style type="text/css">
+ 	#colu {
+ 		column-count: 2;
+ 	}
+ 	h4{
+ 		border-bottom: 2px solid #7ACBCD;
+ 	}
+ 	@media all and (max-width:1003px){
+ 		#colu{
+ 			column-count: 1;
+ 		}
+
+ 	}
+ </style>
+ <body>
+ <header>
+ 		<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html"><b>Home</b></a>
+  <a href="quem.html">Quem Somos</a>
+  <a href="faq.html">Fale Conosco</a>
+  <a href="galeria.html">Galeria</a>
+  <li class="dropdown">
+    	<a href="javascript:void(0)" class="dropbtn">Produtos</a>
+    	<div class="dropdown-content">
+	      	<a href="dic.html">Dicionários</a>
+		  	<a href="galeria.html">Bibliografias</a>
+		  	<a href="galeria.html">Revistas</a>
+    	</div>
+  	 </li><br>
+</div>
+<span id="responda" style="font-size:30px;cursor:pointer;color: #7ACBCD;" onclick="openNav()">&#9776; Menu</span>
+
+<script>function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+ 	<nav>
+	
+	<center><ul>
+	 <li><a href="home.html"><b>Home</b></a></li>
+	 <li><a href="quem.html">Quem Somos</a></li>
+	 <li class="dropdown">
+    	<a href="javascript:void(0)" class="dropbtn">Produtos</a>
+    	<div class="dropdown-content">
+	      	<a href="dic.html">Dicionários</a>
+		  	<a href="galeria.html">Bibliografias</a>
+		  	<a href="galeria.html">Revistas</a>
+    	</div>
+  	 </li>
+	 <li><a href="faq.html">Fale Conosco</a></li>
+	 <li><a href="galeria.html">Galeria</a></li>
+	</ul></center>
+  </nav>
+	
+  <div id="img" >
+	<br><br><br><br><br><br><br><br>
+  </div>
+  
+ </header>
+
+ <section>
+	<p style="font-size: 35px; font-weight: 700; color: #7ACBCD; text-align: center;">F.A.Q</p>
+	<article id="colu">
+	  <h4 style="text-transform: uppercase;">QUANTAS AMOSTRAS GRÁTIS POSSO RESGATAR?</h4>
+	  <p>A ordenação de amostras está na base 'primeiro a chegar, primeiro a ser servido'. Para garantir que você receba as amostras desejadas, é recomendável que você efetue o pagamento dentro de 60 minutos após o checkout.</p>
+	  <h4 style="text-transform: uppercase;">COMO FAÇO PARA ATIVAR MINHA CONTA?</h4>
+	  <p>As instruções para ativar sua conta serão enviadas para seu e-mail assim que você enviar o formulário de registro. Se você não recebeu este e-mail, o software de envio do seu provedor de serviços de e-mail pode estar bloqueando-o. Você pode tentar verificar sua pasta de lixo / spam ou contate-nos em help@bookstonestore.com</p>
+	  <h4 style="text-transform: uppercase;">COMO FAÇO PARA CANCELAR MEUS PEDIDOS ANTES DE EFETUAR UM PAGAMENTO?</h4>
+	  <p>Depois de fazer login na sua conta, acesse seu carrinho de compras. Aqui, você poderá efetuar o pagamento ou cancelar seu pedido. Nota: Não podemos dar reembolsos quando o pagamento for verificado.</p>
+	  <h4 style="text-transform: uppercase;">COMO FAÇO PAGAMENTOS USANDO O PAYPAL? COMO FUNCIONA?</h4>
+	  <p>O Paypal é a maneira mais fácil de efetuar pagamentos on-line. Enquanto verifica o seu pedido, você será redirecionado para o site do Paypal. Certifique-se de preencher os detalhes corretos para um processamento de pagamento rápido e sem complicações. Após um pagamento bem-sucedido do Paypal, um aviso de pagamento será gerado automaticamente para o sistema Samplestore.com para seu pedido.
+É rápido, fácil e seguro.</p>
+	</article>
+	<article style="padding: 10px;">
+	  <center>
+	  	<h2 style="text-transform: uppercase; font-size: 30px"><span style="border-bottom: 2px solid #7ACBCD;">Sugestões? Dúvidas?</span></h4>
+	  	<p style="font-size: 28px;">
+	  	<input type="text" name="nome" placeholder="Nome"><p/>
+	  	<p><input type="email" name="mail" placeholder="Email"></p>
+	  	<br>
+	  	Mensagem: <br><textarea></textarea><br><br>
+	  	<input type="submit" id="sub" value="Enviar" style="background-color: #7ACBCD; border: none; color: #363636;font-family: 'Open Sans Condensed', sans-serif;font-size: 18px; font-weight: 600;transition: 0.8s;"></p></center>
+	</article>
+ </section>
+ <footer>
+ 	<center>Desenvolido por <a href="quem.html">Jamylle Magalhães</a><br><br>
+ 	©2018 BOOK STONE LTDA. Todos os direitos reservados</center>
+ </footer>
+</body>
+</html>
